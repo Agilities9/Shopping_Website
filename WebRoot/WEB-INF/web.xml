@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Shopping_Website</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ForgetServlet</servlet-name>
+    <servlet-class>cn.servlet.ForgetServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>modifyServlet</servlet-name>
+    <servlet-class>cn.servlet.modifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addGoodsTypeServlet</servlet-name>
+    <servlet-class>cn.servlet.addGoodsTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addGoods</servlet-name>
+    <servlet-class>cn.servlet.addGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selAllGoodsServlet</servlet-name>
+    <servlet-class>cn.servlet.selAllGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditDelGoodsServlet</servlet-name>
+    <servlet-class>cn.servlet.EditDelGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateGoodsServlet</servlet-name>
+    <servlet-class>cn.servlet.UpdateGoodsServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>cn.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoppingDaoImpl</servlet-name>
+    <servlet-class>cn.dao.impl.ShoppingDaoImpl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delDetailServlet</servlet-name>
+    <servlet-class>cn.servlet.delDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>payforServlet</servlet-name>
+    <servlet-class>cn.servlet.payforServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selAllGoodsServletAnoA</servlet-name>
+    <servlet-class>input.selAllGoodsServletAnoA</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doShoppingServlet</servlet-name>
+    <servlet-class>cn.servlet.doShoppingServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+<servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForgetServlet</servlet-name>
+    <url-pattern>/ForgetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>modifyServlet</servlet-name>
+    <url-pattern>/modifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addGoodsTypeServlet</servlet-name>
+    <url-pattern>/addGoodsTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addGoods</servlet-name>
+    <url-pattern>/addGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selAllGoodsServlet</servlet-name>
+    <url-pattern>/selAllGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditDelGoodsServlet</servlet-name>
+    <url-pattern>/EditDelGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateGoodsServlet</servlet-name>
+    <url-pattern>/UpdateGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingDaoImpl</servlet-name>
+    <url-pattern>/ShoppingDaoImpl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delDetailServlet</servlet-name>
+    <url-pattern>/delDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>payforServlet</servlet-name>
+    <url-pattern>/payforServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selAllGoodsServletAnoA</servlet-name>
+    <url-pattern>/selAllGoodsServletAnoA</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doShoppingServlet</servlet-name>
+    <url-pattern>/doShoppingServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
